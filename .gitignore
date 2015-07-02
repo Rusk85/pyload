@@ -1,0 +1,83 @@
+# Common packaging directories
+bin/
+build/
+dist/
+env/
+lib64/
+parts/
+sdist/
+var/
+temp/
+
+# Common directories
+.*/
+__pycache__/
+Downloads/
+Logs/
+tmp/
+userplugins/
+
+# Common files
+*.backup
+*.db
+*.pid
+/*.conf
+/*.version
+/*.txt
+/*.xml
+/*.zip
+/pyload/config/core.xml
+/pyload/config/plugin.xml
+
+# Common MacOS & Windows files
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Certificate files
+cert.pem
+ssl.crt
+ssl.key
+
+# Common compiled files
+*.mo
+*.so
+*.py[cod]
+
+# Installer files
+.installed.cfg
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Python Eggs
+*.egg
+*.egg-info
+develop-eggs
+eggs
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# PyCharm
+.idea
+
+# Other development stuff
+.svn
+*~
+*.orig
+*.pidaproject
+*.prefs
+*.project
+*.pydevproject
+*.rej
+_build/
+module/
+paver-minilib.zip
+/setup.sh
+/tesseract/
